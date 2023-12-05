@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+
+# Atur aturan Rewrite untuk halaman yang mengandung "sispensa/view/admin"
+RewriteRule ^sispensa/view/admin(.*)$ auth.php [L]
